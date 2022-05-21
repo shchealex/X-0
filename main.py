@@ -22,7 +22,7 @@ def show():
 
 def ask():
     while True:
-        cords = input("Ваш ход, введите координаты: ").split()
+        cords = input("Введите координаты X Y через пробел: ").split()
 
         if len(cords) != 2:
             print(" Нет координат Y! ")
